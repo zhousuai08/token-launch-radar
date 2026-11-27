@@ -8,6 +8,8 @@ A dashboard that reads DefiLlama's sealed snapshot of every protocol it tracks (
 as of 2026-11-14), works out what a token would be worth if each pre-token protocol launched one,
 and ranks them. The board covers all 40 watchlist protocols (TVL ≥ $50M, no token on record) plus
 138 more pre-token protocols below the floor that pass the watchlist's own exclusions — 178 rows.
+Three screenshots in `screenshots/` show the board, a protocol detail view, and the watchlist-only
+filtered view.
 
 ## The model
 

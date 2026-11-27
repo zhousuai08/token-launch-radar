@@ -1,5 +1,8 @@
 // Token Radar's entrypoint (Node 22, standard library only).
 //
+// The model ("radar-2") scores each pre-token protocol from the snapshot's own
+// data: TVL times a category multiple (median mcap/TVL of listed peers),
+// adjusted by 7-day growth and by how long it has run with no token.
 // The program reads the sealed snapshot from /input/snapshot.json (or --input <file|dir>), scores
 // every pre-token protocol with the model in lib/model.ts, writes the ranked board to
 // /output/board.json, and copies this repository's dashboard/ and screenshots/ to /output. The
